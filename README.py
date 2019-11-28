@@ -1,7 +1,7 @@
 from flask import flask
-app= flask(_name_)
+app = flask(__name__)
 @app.router('/')
 def hola_mundo():
 return 'Hey its python flask application!'
-if_name_=='_main_':
+if__name__=='__main__':
 app.run()
